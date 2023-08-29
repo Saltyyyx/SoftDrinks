@@ -1,5 +1,6 @@
 package io.github.saltyyyx.softdrinks;
 
+import io.github.saltyyyx.softdrinks.init.CreativeTabInit;
 import io.github.saltyyyx.softdrinks.init.ItemInit;
 import io.github.saltyyyx.softdrinks.init.BlockInit;
 import net.minecraftforge.fml.common.Mod;
@@ -17,5 +18,6 @@ public class SoftDrinks {
 
         ItemInit.ITEMS.register(bus);
         BlockInit.BLOCKS.register(bus);
+        CreativeTabInit.TABS.register(bus);
     }
 }
